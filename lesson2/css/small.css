@@ -1,0 +1,80 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet"> 
+
+body {
+    font-family:'Libre Bodoni', serif;
+}
+header {
+    color: white;
+    font-family:font-family: 'Libre Bodoni', serif;
+    background-color: rgba(61, 21, 61, 0.815);
+    text-align: center;
+    padding: .5em;
+    border-radius: .5em;
+}
+img {
+    float:left;
+    margin: 10px;
+    width: 10em;
+    border-radius: .5em;
+}
+footer {
+    color: white;
+    font-family:'Libre Bodoni', serif;
+    background-color: rgba(61, 21, 61, 0.815); 
+    text-align: center;
+    padding: .5em;
+    border-radius: .5em;
+    
+}
+.body {
+    display: flex;
+    max-width: 75%;
+    margin: auto;
+    row-gap: 10px;
+    align-content: center;
+    flex-direction: column;
+      
+}
+.name {
+    margin: auto;
+    padding: 50px; 
+}
+
+
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: #536878;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+
+
+
+
+
