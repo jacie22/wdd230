@@ -1,4 +1,18 @@
 /* phone or baseline views **************************/
+body {
+    font-family:'Libre Bodoni', serif;
+    font-size: 16px;
+}
+
+header {
+    color: white;
+    font-family: 'Libre Bodoni', serif;
+    background-color: rgba(61, 21, 61, 0.815);
+    text-align: center;
+    padding: .5em;
+    border-radius: .5em;
+}
+
 main {
 	max-width: 767px;
 	margin: 0 auto;
@@ -23,8 +37,12 @@ main section:nth-child(2) {
 	margin: 0.5rem;
 }
 
-
-
-
-
-
+footer {
+    color: white;
+    font-family:'Libre Bodoni', serif;
+    background-color: rgba(61, 21, 61, 0.815); 
+    text-align: center;
+    padding: .5em;
+    border-radius: .5em;
+    
+}
