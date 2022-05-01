@@ -3,7 +3,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet"> 
 
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Libre Bodoni', serif;
 }
 header {
     color: white;
@@ -21,7 +21,7 @@ img {
 }
 footer {
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Libre Bodoni', serif;
     background-color: rgba(61, 21, 61, 0.815); 
     text-align: center;
     padding: .5em;
