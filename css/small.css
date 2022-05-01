@@ -1,9 +1,13 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet"> 
+
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 header {
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:font-family: 'Libre Bodoni', serif;
     background-color: rgba(61, 21, 61, 0.815);
     text-align: center;
     padding: .5em;
