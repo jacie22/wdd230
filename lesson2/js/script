@@ -1,0 +1,5 @@
+const paragraph = `${new Date().getFullYear()}`;
+document.getElementById('yr').innerHTML = paragraph;
+
+let text = document.lastModified;
+document.querySelector("#lm").innerHTML = text;
