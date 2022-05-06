@@ -1,0 +1,66 @@
+
+body {
+    font-family:'Source Sans Pro', sans-serif;
+    display: grid;
+    max-width: 75%;
+    margin: auto;
+    row-gap: 10px;
+    align-content: center;
+}
+
+header {
+    color: #cacfd8;
+    font-family:'Domine', serif;
+    background-color: #023a5d;
+    text-align: center;
+    margin: 5px; 
+    padding: .5em;
+    border-radius: .5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+h1 {
+    text-align: left;
+    font-family:'Domine', serif;
+    color: #cacfd8;
+    background-color: #1c7b9b;
+    font-size: 30px;
+}
+h2 {
+    text-align: left;
+    font-family:'Domine', serif;
+    color: #cacfd8;
+    background-color: #1c7b9b;
+    font-size: 25px;
+}
+h3{
+    text-align: left;
+    font-family:'Domine', serif;
+    color: #cacfd8;
+    font-size: 20px;
+}
+p{
+    text-align: left;
+    font-family:'Source Sans Pro', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+img {
+    margin: 10px;
+    width: 10em;
+    border-radius: .5em;
+    grid-column: 1;
+}
+
+footer {
+    color: #cacfd8;
+    font-family:'Domine', serif;
+    background-color: #023a5d;
+    text-align: center;
+    padding: .5em;
+    border-radius: .5em;
+    
+}
