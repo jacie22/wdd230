@@ -1,13 +1,28 @@
 
 body {
-    font-family:'Source Sans Pro', sans-serif;
     display: grid;
     max-width: 75%;
     margin: auto;
     row-gap: 10px;
     align-content: center;
 }
-
+nav {
+    background-color: #1c7b9b;
+    color: #cacfd8;
+    text-align: center; 
+    display: flex; 
+    flex-direction: cloumn;
+}
+nav div {
+    flex: 1 1 auto; 
+}
+nav a{
+    display: block;
+}
+nav a:hover {
+	background-color: pink;
+	color: peru;
+}
 header {
     color: #cacfd8;
     font-family:'Domine', serif;
@@ -20,7 +35,13 @@ header {
     grid-template-columns: 1fr 1fr;
 
 }
-
+main {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
 h1 {
     text-align: left;
     font-family:'Domine', serif;
@@ -62,5 +83,8 @@ footer {
     text-align: center;
     padding: .5em;
     border-radius: .5em;
-    
+    display: flex; 
+}
+footer p{
+    text-align: center;
 }
