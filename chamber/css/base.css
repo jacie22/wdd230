@@ -7,6 +7,9 @@ body{
 
 /*********** Header */
 header {
+    display: flex ;
+	flex-direction: column ;
+	justify-content: center ;
     color: #cacfd8;
     font-family:'Domine', serif;
     background-color: #023a5d;
@@ -15,9 +18,9 @@ header {
 }
 .container {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    
+    align-items: center ;
+	text-align: center ;
 }
 .logo {
     display: flex;
@@ -60,6 +63,7 @@ nav {
     font-family:'Domine', serif;
     margin: 5px; 
     display: flex;
+    order: 3;
 }
 nav ul {
    align-content: center;
@@ -85,33 +89,50 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
 }
 nav ul.open {
+    list-style-type: none ;
     display: block;
 }
-***********/
-.hero, .news, .events, .weather, .join, .spot1, .spot2 {
-    display: flex;
-    flex: column; 
+
+#hamburgerBtn span:nth-child( 1 ) {
+    display: block ;
+}
+
+#hamburgerBtn span:nth-child( 2 ) {
+    display: none ;
+}
+
+#hamburgerBtn.open span:nth-child( 1 ) {
+    display: none ;
+}
+
+#hamburgerBtn.open span:nth-child( 2 ) {
+    display: block ;
+}
+
+
+
+
+main div {
     border:1px solid #023a5d;
     background-color: #cacfd8;
     margin: 1em;
     padding: 1em;  
 }
-.news {
-    order: 6;
-    background-color: #023a5d;
-
-}
-
-/**/
-.spots {
+.spot1, .spot2 {
     border:1px solid #023a5d;
     background-color: #cacfd8;
     margin: 1em;
-    padding: .25em; 
-   
+    padding: 1em;  
 }
 
-*/
+.spot3{
+   display: none;
+   
+}
+.join {
+    display: none; 
+}
+
 
 /******* Headings & Paragraph */
 h1, h2, h3 {

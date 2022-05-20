@@ -1,17 +1,21 @@
-//Last Modified //
-document.getElementById('yr').innerHTML = new Date().getFullYear();
 
-let text = document.lastModified;
-document.querySelector("#lm").innerHTML = text;
-
-// Responsive Hamburger Menu//
 function toggleMenu() {
-    document.getElementById("primarynav").classList.toggle("open");
-}
-const x = document.getElementById('hammy');
-x.onclick = toggleMenu;
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+  }
+  
+  const x = document.getElementById("hamburgerBtn");
+  x.onclick = toggleMenu;
 
 
+
+
+
+
+
+//function toggleMenu() {
+  //  document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+//}
 
 
 // select the elements to manipulate (output to)
@@ -30,3 +34,13 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+
+
+//Last Modified //
+document.getElementById("yr").innerHTML = new Date().getFullYear();
+
+let text = document.lastModified;
+document.querySelector("#lm").innerHTML = text;
+
+

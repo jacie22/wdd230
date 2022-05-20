@@ -1,20 +1,63 @@
 /* Tablet Views */
 @media only screen and (min-width: 35rem){
-    nav button {
-        display: none;
+   
+
+    header img {
+        width: 80px ;
     }
-    nav ul#primarynav {
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0,0,0,0.3);
+
+    .current-date {
+        font-size: .8em ;
+        padding: .6em ;
     }
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
+
+  
+
+    nav ul.open {
+        font-size: 1.4em ;
+        margin: 0 ;
     }
-	.msection .spots {
-		order:3;
-	
-	}
+
+    main div {
+        margin: .5em;
+    }
+    main {
+        display: grid ;
+        grid-template-columns: repeat( 3, 1fr) ;
+        grid-template-rows: repeat( 5, 1fr ) ;
+    }
+
+    .hero {
+        grid-column: 1/4 ;
+    }
+
+    .news {
+        grid-column: 1/4 ;
+        grid-row: 2/3 ;
+    }
+
+    .spot{
+        flex-direction: row ;
+        grid-column: 1/4 ;
+        grid-row: 3/4 ;
+    }
+                                .spot1 {
+                                    grid-column: 1;
+                                }
+                                .spot2 {
+                                    grid-column: 2;
+                                }
+    .join {
+        grid-column: 1/4 ;
+        grid-row: 4/5 ;
+        display: block ;
+    }
+    
+    .events {
+        grid-column: 1/3 ;
+    }
+
+
+
 }
 
