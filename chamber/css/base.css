@@ -141,6 +141,7 @@ h1, h2, h3 {
     margin: 5px; 
     padding: .3em;
     border-radius: .5em;
+    text-align: center;
 }
 
 h1 {
