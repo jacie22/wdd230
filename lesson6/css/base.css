@@ -110,6 +110,10 @@ main div {
     margin: 1em;
     padding: 1em;  
 }
+.spot, .spot2 link {
+    text-align: center;
+
+}
 .hero {
     padding: 0px;
 }

@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <link rel="script" href="js/script">
+        <link rel="script" href="js/windchil.js">
         <title> Silverton Chamber of Commerce </title>
     </head>
     <body>
@@ -36,7 +37,7 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-       
+  
             </div>
 
 
@@ -58,7 +59,7 @@
 
 
             <div class="hero">
-                <img class="heroimg" src="images/river.jpg" alt="river in silverton">
+                <img class="heroimg" src="images/230.jpg" alt="people at a desk">
                 <a href=""><h3 class="herojoin"> Join the Chamber</h3></a>
             </div>
 
@@ -79,8 +80,11 @@
             <div class="weather">
                 <h3>Today's Weather</h3>
                 <img src="images/weather.jpg" alt="weather icon">
-                <h4>65°F</h4>
+                <h4><span id="temp"></span>65°F</h4>
                 <h4>Partly Cloudy</h4>
+                <h4>Wind Speed: <span id="windSpeed">20</span> mph </h4>
+                <h4>Wind Chill: <span id="windChill"></span></h4>
+                <script src="js/windchill.js"></script>
             </div>
             <div class="join">
                 <a href=""><h3>Join the Chamber</h3></a>
