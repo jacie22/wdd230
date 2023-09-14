@@ -1,0 +1,44 @@
+
+body {
+    font-family:'Libre Bodoni', serif;
+    display: grid;
+    max-width: 75%;
+    margin: auto;
+    row-gap: 10px;
+    align-content: center;
+}
+
+header {
+    color: white;
+    font-family:'Libre Bodoni', serif;
+    background-color: rgba(109, 194, 196, 0.815);
+    text-align: center;
+    margin: 5px; 
+    padding: .5em;
+    border-radius: .5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+h1 {
+    text-align: left;
+   
+}
+
+img {
+    margin: 10px;
+    width: 10em;
+    border-radius: .5em;
+    grid-column: 1;
+}
+
+footer {
+    color: white;
+    font-family:'Libre Bodoni', serif;
+    background-color: rgba(109, 194, 196, 0.815); 
+    text-align: center;
+    padding: .5em;
+    border-radius: .5em;
+    
+}
