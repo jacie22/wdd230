@@ -8,6 +8,18 @@ body {
     align-content: center;
 }
 
+nav {
+    color: white;
+    font-family:'Libre Bodoni', serif;
+    background-color: rgba(109, 194, 196, 0.815);
+    text-align: center;
+    margin: 5px; 
+    padding: .5em;
+    border-radius: .5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 header {
     color: white;
     font-family:'Libre Bodoni', serif;
