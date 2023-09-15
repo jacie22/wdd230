@@ -20,6 +20,49 @@ nav {
     grid-template-columns: 1fr 1fr;
 }
 
+nav button {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    color:  #A28F9D;
+}
+.primaryNav {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.primaryNav li {
+    display: none;
+}
+.responsive li {
+    display: block;
+}
+nav a:hover {
+    background-color: #A28F9D;
+    color: #2374AB;
+    --d: 75%;
+}
+nav ul {
+    background-color: #E5DDDC; 
+}
+nav ul li a {
+    
+    display: block;
+    color: black;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
 header {
     color: white;
     font-family:'Libre Bodoni', serif;
@@ -34,7 +77,7 @@ header {
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
    
 }
 
