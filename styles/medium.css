@@ -3,4 +3,12 @@
     nav {
         flex-direction: row;
     }
+
+    .card {
+         float: left;
+         width: 40%;
+         margin: 10px; 
+         padding: 10px; 
+         border: 2px solid #218592;
+    }
     }
