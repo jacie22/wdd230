@@ -8,59 +8,44 @@ body {
     align-content: center;
 }
 
+/********** Navigation **********/
 nav {
-    color: white;
-    font-family:'Libre Bodoni', serif;
     background-color: rgba(109, 194, 196, 0.815);
-    text-align: center;
-    margin: 5px; 
+    color: white; 
+    text-decoration: none;
+    text-align: center; 
+    display: flex; 
+    flex-direction: column;
     padding: .5em;
-    border-radius: .5em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    line-height: 1.7em;
 }
-
-nav button {
-    background: transparent;
-    border: none;
-    font-size: 1rem;
-    color:  #A28F9D;
-}
-.primaryNav {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-}
-
-.primaryNav li {
-    display: none;
-}
-.responsive li {
-    display: block;
-}
-nav a:hover {
-    background-color: #A28F9D;
-    color: #2374AB;
-    --d: 75%;
+nav a {
+    color: white; 
+    text-decoration: none;
+    display: block; 
+    
 }
 nav ul {
-    background-color: #E5DDDC; 
+	list-style-type: none;
+   
 }
-nav ul li a {
-    
-    display: block;
-    color: black;
-    padding: 0.75rem;
-    text-decoration: none;
-    font-size: 0.95rem;
-    transition: 0.5s;
+nav a:hover {
+	background-color: #218592;
 }
 
+header {
+    color:#1F1A38;
+    font-family:'Domine', serif;
+    background-color: rgba(109, 194, 196, 0.815);
+    margin-top: 10px;
+    padding: .5em;
+    border-radius: .5em .5em 0em 0em;
+}
 
+nav div {
+    flex: 1 1 auto;
 
-
-
-
+}
 
 
 header {
@@ -70,7 +55,7 @@ header {
     text-align: center;
     margin: 5px; 
     padding: .5em;
-    border-radius: .5em;
+    border-radius: .5em .5em 0em 0em;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -88,12 +73,14 @@ img {
     grid-column: 1;
 }
 
+
+/********** Footer **********/
 footer {
     color: white;
     font-family:'Libre Bodoni', serif;
     background-color: rgba(109, 194, 196, 0.815); 
     text-align: center;
     padding: .5em;
-    border-radius: .5em;
+    border-radius: 0em 0em .5em .5em ;
     
 }
