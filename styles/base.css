@@ -7,7 +7,12 @@ body {
     row-gap: 10px;
     align-content: center;
 }
-
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
 /********** Navigation **********/
 nav {
     background-color: rgba(109, 194, 196, 0.815);
@@ -33,21 +38,12 @@ nav a:hover {
 	background-color: #218592;
 }
 
-header {
-    color:#1F1A38;
-    font-family:'Domine', serif;
-    background-color: rgba(109, 194, 196, 0.815);
-    margin-top: 10px;
-    padding: .5em;
-    border-radius: .5em .5em 0em 0em;
-}
-
 nav div {
     flex: 1 1 auto;
 
 }
 
-
+/********** Header **********/
 header {
     color: white;
     font-family:'Libre Bodoni', serif;
@@ -58,12 +54,10 @@ header {
     border-radius: .5em .5em 0em 0em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 h1 {
     text-align: center;
-   
 }
 
 img {
@@ -82,5 +76,4 @@ footer {
     text-align: center;
     padding: .5em;
     border-radius: 0em 0em .5em .5em ;
-    
 }
