@@ -67,11 +67,7 @@ img {
     grid-column: 1;
 }
  .card :link {
-    color: rgb(171, 127, 230);
- }
-
- .card :visited {
-    color: rgb(61, 65, 102);
+    color: rgb(136, 73, 219);
  }
 
 /********** Footer **********/
