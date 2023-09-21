@@ -1,0 +1,31 @@
+
+const inputElement = document.querySelector( "input" ) ;
+const buttonElement = document.querySelector( "button" ) ;
+const listElement = document.querySelector( "ul" ) ;
+
+
+buttonElement.addEventListener( "click", function() {
+    if ( inputElement.value != "" ) {
+        
+        let newChapter = document.createElement( "li" ) ;
+        let deleteButton = document.createElement( "button" ) ;
+
+        newChapter.textContent = inputElement.value ;
+
+        deleteButton.textContent = "❌" ;
+    
+        newChapter.append( deleteButton ) ;
+       
+        listElement.append( newChapter ) ;
+
+        deleteButton.addEventListener( "click", function() {
+            listElement.removeChild( newChapter ) ;
+            inputElement.focus() ;
+        } ) ;
+        
+        inputElement.value = "" ;
+        inputElement.focus() ;
+    }
+} ) ;
+
+
