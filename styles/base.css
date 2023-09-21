@@ -37,7 +37,6 @@ nav ul {
 nav a:hover {
 	background-color: rgb(12, 17, 56);
 }
-
 nav div {
     flex: 1 1 auto;
 
@@ -66,7 +65,13 @@ img {
     border-radius: .5em;
     grid-column: 1;
 }
+ .card :link {
+    color: rgb(171, 127, 230);
+ }
 
+ .card :visited {
+    color: rgb(61, 65, 102);
+ }
 
 /********** Footer **********/
 footer {
