@@ -23,6 +23,7 @@ nav {
     flex-direction: column;
     padding: .5em;
     line-height: 1.7em;
+    margin: 4px;
 }
 nav a {
     color: white; 
