@@ -6,6 +6,7 @@ body {
     margin: auto;
     row-gap: 10px;
     align-content: center;
+    
 }
 h2 {
     text-align: center;
@@ -15,8 +16,8 @@ h3 {
 }
 /********** Navigation **********/
 nav {
-    background-color: rgba(61, 65, 102, 0.877);
-    color: white; 
+    background-color: #0f396b;
+    color: #faf3dd;
     text-decoration: none;
     text-align: center; 
     display: flex; 
@@ -26,7 +27,7 @@ nav {
     margin: 4px;
 }
 nav a {
-    color: white; 
+    color: #faf3dd; 
     text-decoration: none;
     display: block; 
     
@@ -45,9 +46,9 @@ nav div {
 
 /********** Header **********/
 header {
-    color: white;
+    color: #faf3dd;
     font-family:'Libre Bodoni', serif;
-    background-color: rgba(61, 65, 102, 0.87);
+    background-color: #0f396b;
     text-align: center;
     margin: 5px; 
     padding: .5em;
@@ -66,15 +67,16 @@ img {
     border-radius: .5em;
     grid-column: 1;
 }
- .card :link {
-    color: rgb(136, 73, 219);
+
+ main {
+    background-color: #faf3dd;
  }
 
 /********** Footer **********/
 footer {
-    color: white;
+    color: #faf3dd;
     font-family:'Libre Bodoni', serif;
-    background-color: rgba(61, 65, 102, 0.87); 
+    background-color: #0f396b;
     text-align: center;
     padding: .5em;
     border-radius: 0em 0em .5em .5em ;
