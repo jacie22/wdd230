@@ -4,6 +4,24 @@
         flex-direction: row;
     }
 
+    nav ul.open {
+        font-size: 1.4em ;
+        margin: 0 ;
+    }
+    .primaryNav {
+        display: flex;
+    }
+  
+    .primaryNav li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    button {
+        display: none ;
+    }
+
+
     .card {
          float: left;
          width: 40%;
